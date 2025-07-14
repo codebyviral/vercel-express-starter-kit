@@ -1,0 +1,34 @@
+{
+  "name": "create-vercel-express-mongo-app",
+  "version": "1.0.0",
+  "description": "A minimal and production-ready Express.js + MongoDB starter template optimized for serverless deployment on Vercel. Includes routing, controller structure, MongoDB connection, and API example.",
+  "keywords": [
+    "vercel",
+    "express",
+    "mongo",
+    "app"
+  ],
+  "license": "ISC",
+  "author": "Viral Vaghela",
+  "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon dev.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "mongoose": "^8.16.3",
+    "ora": "^8.2.0",
+    "prompts": "^2.4.2",
+    "serverless": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
